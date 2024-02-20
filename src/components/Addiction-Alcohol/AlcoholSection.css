@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.alcohol-section {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.alcohol-section:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.alcohol-section-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.alcohol-section-header h1 {
+  padding: 1rem 0;
+}
+
+.alcohol-section-content {
+  padding: 1rem;
+}
+
+.alcohol-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.alcohol-section-left {
+  width: 50%;
+  margin: auto;
+}
+
+.alcohol-section-left h1 {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.alcohol-section-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.alcohol-section-right img {
+  width: 100%;
+  border-radius: 15px;
+  padding: .5rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .alcohol-section-flex {
+    flex-wrap: wrap;
+  }
+  
+  .alcohol-section-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .alcohol-section-right {
+    width: 100%;
+    margin: auto;
+  }
+
+  .alcohol-section-left h1 {
+    text-align: left;
+  }
+
+  .alcohol-section-left p {
+    text-align: left;
+  }
+  
+  .alcohol-section-header p {
+    text-align: left;
+  }
+
+  .alcohol-section-header h1 {
+    text-align: left;
+  }
+
+  }
+
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.cocaine-section {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.cocaine-section:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.cocaine-section-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.cocaine-section-header h1 {
+  padding: 1rem 0;
+}
+
+.cocaine-section-left h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+.cocaine-section-header h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+.cocaine-section-content {
+  padding: 1rem;
+}
+
+.cocaine-section-content {
+  padding: 3rem 1rem;
+}
+
+.cocaine-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cocaine-section-left {
+  width: 50%;
+  margin: auto;
+}
+
+.cocaine-section-left h1{
+  padding: 1rem 0;
+}
+
+
+.cocaine-section-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.cocaine-section-right img {
+  width: 100%;
+  border-radius: 15px;
+  padding: .5rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .cocaine-section-flex {
+    flex-wrap: wrap;
+  }
+  
+  .cocaine-section-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .cocaine-section-right {
+    width: 100%;
+    margin: auto;
+  }
+
+  .cocaine-section-left h1 {
+    text-align: center;
+  }
+  
+  }
+
+
+

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.insurance {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #00000060;
+  }
+  
+  .insurance:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/menu-bg-insurance.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.insurance .insurance-content {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+}
+
+.insurance h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.insurance h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.insurance h1 {
+    font-size: 3rem;
+}
+}
+
+
+@media screen and (max-width:700px) {
+
+    .insurance {
+        height: 100vh;
+    }
+    
+}

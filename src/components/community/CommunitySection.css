@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.community-section-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 3rem 0;
+  }
+  
+  .community-section-container:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg1.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.03;
+  }
+
+
+.community-section-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.commumity-header {
+    padding: 1rem;
+}
+
+.community-section-left {
+    width: 500px;
+    margin: auto;
+}
+
+.community-section-left img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.community-section-right {
+    width: 600px;
+    margin: auto;
+}
+
+.community-section-right h1 {
+    color: #977ab3;
+}
+
+.community-section-right p {
+    text-align: justify;
+}
+
+.community-section-right a {
+    line-height: 25px;
+    color: rgb(0, 183, 255);
+}
+
+
+@media screen and (max-width:940px)  {
+
+    .community-section-content {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .community-section-right {
+        width: 100%;
+    }
+    .community-section-left {
+        width: 100%;
+    }
+
+    .commumity-header p {
+        text-align: justify;
+    }
+
+    .community-section-right h1, .community-section-right h2, .community-section-right p {
+        text-align: justify;
+    }
+
+    .community-section-right h2 {
+        font-size: 2rem;
+    }
+
+
+    .commumity-footer p {
+        text-align: justify;
+    }
+
+}
+

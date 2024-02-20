@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.residence-section {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.residence-section:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/bg1.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+
+
+.residence-section-header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.residence-section-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.residence-section-header p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.residence-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.residence-section-flex-left {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.residence-section-flex-left h5 {
+  padding: .5rem 0;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.residence-section-flex-left p {
+  padding: .5rem 0;
+}
+
+
+
+.residence-section-flex-right {
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.residence-section-flex-right img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+
+
+
+
+/* FLEX 2 */
+
+
+
+.residence-section-flex-right2 {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.residence-section-flex-right2 h5 {
+  padding: .5rem 0;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.residence-section-flex-right2 p {
+  padding: .5rem 0;
+}
+
+
+
+.residence-section-flex-left2 {
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.residence-section-flex-left2 img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+
+.ResidenceSection-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.ResidenceSection-flex .thumbnail {
+  width: 300px;
+}
+
+.ResidenceSection-flex .thumbnail img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+
+
+@media screen and (max-width:940px) {
+  .residence-section-flex {
+    flex-wrap: wrap;
+  }
+
+  .residence-section-flex-left {
+    width: 90%;
+  }
+
+  
+  .residence-section-flex-right {
+    width: 90%;
+  }
+
+  .residence-section-flex-left p {
+    text-align: justify;
+  }
+
+
+
+  .residence-section-flex-left2 {
+    width: 90%;
+  }
+
+  
+  .residence-section-flex-right2 {
+    width: 90%;
+  }
+
+  .residence-section-flex-right2 p {
+    text-align: justify;
+  }
+
+  .wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+
+  .ResidenceSection-flex .thumbnail {
+    width: 90%;
+  }
+
+
+}

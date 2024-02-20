@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.asd-section {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.asd-section:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/bg1.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+.asd-section-content {
+  padding: 3rem 1rem;
+}
+
+.asd-section-header h1, .asd-section-left h1, .asd-section-header h5 {
+  padding: .5rem 0;
+}
+
+.asd-section-header {
+  padding: 1rem;
+}
+
+.asd-section-header h5 {
+  font-size: .9rem;
+  color: orange;
+}
+
+
+.asd-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.asd-section-left {
+  width: 50%;
+  margin: auto;
+}
+
+.asd-section-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.asd-section-right img {
+  width: 100%;
+  border-radius: 15px;
+  padding: .5rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .asd-section-flex {
+    flex-wrap: wrap-reverse;
+  }
+  
+  .asd-section-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .asd-section-right {
+    width: 100%;
+    margin: auto;
+  }
+
+  .asd-section-left h1 {
+    text-align: center;
+  }
+
+  .asd-section-header h1 {
+    text-align: center;
+  }
+  
+  }
+
+
+

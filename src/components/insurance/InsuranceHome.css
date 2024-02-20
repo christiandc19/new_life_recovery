@@ -1,0 +1,36 @@
+.insurance-home-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.insurance-home-left {
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.insurance-home-left img {
+    width: 100%;
+}
+
+.insurance-home-right {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+}
+
+@media screen and (max-width:940px) {
+    .insurance-home-flex {
+        flex-wrap: wrap;
+    }
+
+    .insurance-home-left {
+        width: 90%;
+    }
+    
+    
+    .insurance-home-right {
+        width: 90%;
+    }
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.navbar {
+  width: 100%;
+  z-index: 10;
+  background-color: #92b1d300;
+  position: absolute;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.navbar .navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.navbar-logo {
+  width: 180px;
+  padding: .5rem;
+  z-index: 2;
+}
+
+.navbar-logo img {
+  width: 100%;
+}
+
+.navbar-logo h1 {
+  padding: 1rem;
+  color: white;
+}
+
+.navbar .icon {
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+}
+
+.navbar .logo .icon {
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+
+.hamburger {
+    display: none;
+    padding: 1rem;
+}
+
+.navbar .nav-menu {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    /* padding: 2rem 0; */
+}
+
+.navbar li {
+    font-size: 13px;
+    width: max-content;
+    padding: .3rem .5rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar li a {
+  font-weight: 600;
+}
+
+  .menu-item .sub__menus li a {
+    color: var(--primary-color);
+    font-size: 13px;
+    padding: -1rem ;
+  }
+
+  .menu-item .sub__menus li a:hover {
+    color: rgb(255, 123, 0) !important;
+  }
+
+/* -----------------------------------------------------> SUB MENU */
+.sub__menus {
+    position: absolute;
+    display: none;
+    background: #ffffff;
+    border-radius: 3px;
+    width: auto;
+    padding: 2px 0 0 0;
+    margin-top: 6px;
+    z-index: 1000;
+  }
+
+  /* -----------------------------------------------------> DROPDOWN ARROW */
+
+  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
+    top: 10px;
+    font-size: 12px;
+  }
+
+  
+@media screen and (max-width: 1200px) {
+
+    .navbar .hamburger {
+        display: block;
+        z-index: 15;
+    }
+
+    .navbar .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left:-100%;
+        justify-content: center;
+        background: black;
+        transition: 0.5s ease-in;
+    }
+
+    .navbar .active {
+        left: 0;
+    }
+
+    .navbar li {
+        font-size: 1rem;
+    }
+
+    .navbar button {
+        font-size: 1.8rem;
+    }
+
+    .menu-item .sub__menus li a {
+        font-size: 14px;
+        color: var(--primary-color);
+      }
+
+      li .submenu-header {
+        font-size: 14px;
+      }
+
+      #submenu-item li {
+        padding: .2rem 1rem;
+      }
+
+      .navbar .navbar-container {
+        justify-content: space-between;
+      }
+
+      .sub__menus {
+        background: #f4f4f7;
+      }
+    
+
+}
+
+
+
+
+

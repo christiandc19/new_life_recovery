@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.mdma {
+    width: 100%;
+    height: 70vh;
+    background: #0000007a;
+    position: relative;
+  }
+  
+  .mdma:before {
+    content: '';
+    position: absolute;
+    background: url('https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+.mdma {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mdma .mdma-content {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+}
+
+.mdma h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.mdma h1 {
+    font-size: 2rem;
+}
+
+}

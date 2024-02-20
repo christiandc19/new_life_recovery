@@ -1,0 +1,153 @@
+
+
+.bg {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bg:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url('../../assets/bg1.webp') no-repeat center center/cover;
+  opacity: 0.07;
+  padding: 5rem 0;
+
+}
+
+
+.contact-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+
+  .get_form_inner {
+    display: block;
+    padding: 2rem 2rem ;
+    background: #fff;
+    box-shadow: -4px -2px 20px -7px #cfd5df;
+    margin: 4rem 2rem 2rem 3rem;
+  }
+
+input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+  input[type="text"], input[type="text"], input[type="email"], input[type="tel"] {
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: #333;
+    height: 42px;
+    padding: 0 0 0 20px;
+    width: 100%;
+    outline: 0;
+  }
+
+  textarea {
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: #333;
+    padding: 12px 0 0 20px;
+    width: 100%;
+    outline: 0;
+    margin-bottom: 20px;
+    resize: none;
+  }
+
+  .get_form_inner_text h3 {
+    color: var(--primary-color);
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .get_form_inner_text p {
+    text-align: left;
+  }
+
+  input[type="submit"] {
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    color: #fff;    
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -webkit-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -moz-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -ms-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -o-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(212, 42, 212);
+    border-color: var(--secondary-color);
+    color: #fff;
+  }
+
+  .contact-cards-container {
+    flex-wrap: wrap;
+    width: 330px;
+  }
+
+  .get_form_inner2 {
+    display: block;
+    width: 300px;
+    height: 150px;
+    padding: 2rem 1rem;
+    background: #fff;
+    box-shadow: -4px -2px 20px -7px #cfd5df;
+    margin: 4rem 1rem 1rem 1rem;
+    border-bottom: 3px solid var(--primary-color);
+  }
+
+  .get_form_inner2  h2 {
+    color: var(--primary-color);
+    text-align: center;
+    }
+    
+    .get_form_inner2 p, .get_form_inner2 a {
+    color: rgb(39, 38, 38);
+    text-align: center;
+    margin: 1rem auto;
+    }
+
+    .hidden {
+      display: none;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
+      width: 10rem;
+      margin: auto;
+      z-index: 2;
+  }
+
+
+
+  @media screen and (max-width: 940px) {
+    .get_form_inner {
+        margin: 4rem 1rem 2rem 1rem;
+      }
+
+      iframe {
+        display: none;
+      }
+    }
+  

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.AngerDisorder {
+    width: 100%;
+    height: 70vh;
+    background: #0000007a;
+    position: relative;
+  }
+  
+  .AngerDisorder:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/mental-health-submenu-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+.AngerDisorder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.AngerDisorder .AngerDisorder-content {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+}
+
+.AngerDisorder h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.712);
+    text-align: center;
+}
+
+.AngerDisorder h3 {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.AngerDisorder h1 {
+    font-size: 2rem;
+}
+
+}

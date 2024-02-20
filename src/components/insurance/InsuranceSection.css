@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.InsuranceSection {
+    width: 100%;
+    position: relative;
+}
+
+.InsuranceSection .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.InsuranceSection-container {
+    text-align: center;
+    padding: 25px;
+}
+
+.InsuranceSection-container p {
+        padding: 1rem 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+.InsuranceSection h1 {
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.insurance-thumbnail {
+    width: 150px;
+}
+
+.insurance-thumbnail img {
+    width: 100%;
+}
+
+
+.group {
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.group img {
+    max-width: 100%;
+}
+
+
+@media  screen and (max-width:940px) {
+    .InsuranceSection-container h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+
+    .InsuranceSection-container p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media  screen and (max-width:600px) {
+.group {
+    width: 350px;
+}
+}
+
+
+
+

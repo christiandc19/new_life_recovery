@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.top-flex {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgb(255, 255, 255);
+  margin: 3rem 5rem;
+}
+
+.top-flexItem {
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(243, 239, 239, 0.336);
+  box-shadow: -1px 0px 15px -4px rgba(0,0,0,0.25);
+}
+
+.top-flex-item:hover {
+  box-shadow: -1px 0px 15px -4px rgba(0, 0, 0, 0.452);
+}
+
+.top-flex-image {
+  width: 250px;
+  margin: auto;
+  padding: 1rem 0;
+
+}
+
+.top-flex-image img{
+  width: 100%;
+  border-radius: .5rem;
+}
+
+ 
+.top-flex-caption {
+  text-align: center;
+}
+
+
+.top-flex-caption h2{
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+
+.top-flex-caption p {
+  width: max-content;
+  color: rgb(204, 116, 221);
+  padding: .5rem 2rem;
+  font-size: 12px;
+  border: 1px solid rgba(117, 92, 165, 0.26);
+  margin: 1rem auto;
+  letter-spacing: 1px;
+}
+
+.top-flex-caption p:hover {
+  color: rgb(99, 18, 116);
+}
+
+
+.top-flex-caption span {
+  color: rgb(204, 116, 221);
+}
+
+
+.top-flex-caption span:hover {
+  color: rgb(99, 18, 116);
+}
+
+
+
+@media (max-width: 940px) {
+  .top-flex {
+    margin: 0 2rem;
+  }
+}
+
+
+.mh-cards-header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.mh-cards-header h1 {
+  margin: 2rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mh-cards-header p {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 940px) {
+  .mh-card-wrap {
+    width: 100%;
+  }
+
+}
+
+
+
+

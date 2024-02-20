@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.mdma-section {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.mdma-section:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.03;
+}
+
+
+.mdma-section-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.mdma-section-header h1 {
+  padding: 1rem 0;
+}
+
+.mdma-section-left h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+.mdma-section-header h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+.mdma-section-content {
+  padding: 3rem 1rem;
+}
+
+.mdma-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mdma-section-left {
+  width: 50%;
+  margin: auto;
+}
+
+.mdma-section-left h1 {
+  padding: 1rem 0;
+}
+
+.mdma-section-left p {
+  text-align: justify;  
+}
+
+
+.mdma-section-right {
+  width: 500px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.mdma-section-right img {
+  width: 100%;
+  border-radius: 15px;
+  padding: .5rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .mdma-section-flex {
+    flex-wrap: wrap;
+  }
+  
+  .mdma-section-left {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .mdma-section-right {
+    width: 100%;
+    margin: auto;
+  }
+
+  .mdma-section-left h1 {
+    text-align: center;
+  }
+  
+  }
+
+
+

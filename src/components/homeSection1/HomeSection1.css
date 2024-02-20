@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@300&display=swap');
+
+.section1 {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+}
+
+.section1-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.section1-header h1 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+}
+
+.section1-header p {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* cards */
+
+.section1-cards {
+    padding: 1rem;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+
+
+.card h5 {
+    border: 1px solid #5a5c825d;
+    width: max-content;
+    margin: auto;
+    padding: .6rem 2rem;
+    border-radius: 5px;
+    /* background-color: #5a5c825d; */
+}
+
+.card2 h5 {
+    border: 1px solid #adadbe81;
+}
+
+.wwa-cards-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    top: 10%;
+    text-align: center;
+    width: 100%;
+}
+
+.card-icon1, .card-icon3 {
+    font-size: 6rem;
+    color: var(--primary-color);
+    padding: 1rem 0;
+}
+
+.card-icon2 {
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+/*  card 1 */
+
+.card1 {
+    margin-top: 1.5rem;
+    width: 450px;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 1rem;
+    box-shadow: -1px 3px 43px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 43px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 43px -9px rgba(0,0,0,0.75);  
+}
+  
+  .card1:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/leaf.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card1 h1 {
+    font-size: 1.5rem;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card1 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1 h5 {
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/*  card 2 */
+
+.card2 {
+    width: 450px;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+  }
+  
+  .card2:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/leaf.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card2 h1 {
+    font-size: 1.5rem;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;    
+    color: white;
+}
+
+.card2 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.card2 h5 {
+    letter-spacing: 2px;
+    color: white;
+}
+
+/*  card 3 */
+
+.card3 {
+    margin-top: 1.5rem;
+    width: 450px;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 1rem;
+    box-shadow: -1px 3px 43px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 43px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 43px -9px rgba(0,0,0,0.75);
+  }
+  
+  .card3:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/leaf.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+  }
+
+.card3 h1 {
+    font-size: 1.5rem;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card3 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card3-btn {
+    padding: 2rem 0;
+}
+
+.card3 h5 {
+    color: var(--primary-color);
+    letter-spacing: 2px;
+}
+
+.card h5:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+@media screen and (max-width:940px) {
+    
+    .wwa-cards-contents {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .card2 {
+        border-radius:  0;
+    }
+
+    .card3 {
+        margin-top: 0;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}

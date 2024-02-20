@@ -1,0 +1,96 @@
+.therapySA {
+    width: 100%;
+    height: 100%;
+    background: #24242500;
+    position: relative;
+  }
+  
+  .therapySA:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg1.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.05;
+  }
+
+
+  .therapySA-content {
+    padding: 3rem 0;
+    height: auto;
+  }
+
+.therapySA-header {
+    width: 100%;
+    text-align: center;
+}
+
+.therapySA-header h1 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  font-family: "Elsie", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: .5rem;
+}
+
+.therapySA-header p {
+  padding: 1rem;
+}
+
+.therapySA-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+.therapySA-flexItem {
+  width: 370px;
+  height: auto;
+  border-radius: 10px;
+  padding: 0 0 2rem 0;
+  margin: 1rem;
+  box-shadow: -1px 11px 22px -17px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 11px 22px -17px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 11px 22px -17px rgba(0,0,0,0.75);
+}
+
+.therapySA-flexItem .flex-img {
+  width: 100%;
+}
+
+.therapySA-flexItem .flex-img img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.therapySA-flexItem .flex-caption h1{
+  font-size: 1.2rem;
+  padding: 1rem 0 0 0;
+  text-align: center;
+}
+
+
+.therapySA-flexItem .flex-caption p{
+  padding: 1rem;
+  text-align: center;
+}
+
+.therapySA-btn {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.therapySA-btn button {
+  padding: .8rem 2.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+

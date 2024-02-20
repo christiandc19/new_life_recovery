@@ -1,0 +1,109 @@
+.gauge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.gauge-container {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+}
+
+.bar-container {
+    height: 5px;
+    width: 200px;
+    margin-right: 10px;
+    position: relative;
+    background-color: rgb(243, 237, 237);
+    margin-bottom: 0.5rem;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.primary-title h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.gauge h3 {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.gauge h4 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.gauge h2 {
+    font-size: 3rem;
+}
+
+.gauge p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.lang {
+    color: white;
+    padding-top: .5rem;
+}
+
+.bar-container .homeless,
+.bar-container .sober,
+.bar-container .bootstrap,
+.bar-container .nodejs,
+.bar-container .nosql,
+.bar-container .reactjs,
+.bar-container .adobe {
+    position: absolute;
+    height: 100%;
+    margin-right: 10px;
+    background-color: #03990f;
+    border-radius: 7px;
+}
+
+.homeless {
+    -webkit-animation: progress-homeless 7s forwards;
+            animation: progress-homeless 7s forwards;
+}
+
+@keyframes progress-homeless {
+    from {width:0px;}
+    to {width:100%;}
+}
+
+.sober {
+    -webkit-animation: progress-sober 7s forwards;
+            animation: progress-sober 7s forwards;
+}
+
+@keyframes progress-sober {
+    from {width:0px;}
+    to {width:60%;}
+}
+
+
+
+@media screen and (max-width:700px)  {
+    .gauge p {
+        font-size: .8rem;
+    }
+
+    .gauge h3 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    
+    .gauge h4 {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
