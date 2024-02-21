@@ -162,11 +162,11 @@ const Footer = () => {
             <div className="col">
               <h3>CONTACT</h3>
               <div>
-                  <p><span><MdPhoneCallback /></span> <a href="tel:1234567890">(213) 584-4445</a></p>
+                  <p><span><MdPhoneCallback /></span> <a href="tel:4242530226">(424) 253-0226</a></p>
               </div>
 
               <div>
-                  <p><span><MdAlternateEmail  /><a href = "mailto: abc@example.com">info@santamonicarehab.biz</a></span></p>
+                  <p><span><MdAlternateEmail  /><a href = "mailto: info@NewLifeRecovery.biz">info@NewLifeRecovery.biz</a></span></p>
               </div>
 
               <div>

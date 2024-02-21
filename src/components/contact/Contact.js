@@ -18,7 +18,7 @@ const Contact = () => {
             </Fade>
             <Fade right>
                   <p>Our Addiction and Recovery Support team is to assist you. </p>
-                  <h2><span><MdPhoneCallback /></span> <a href="tel:2135844445">(213) 584-4445</a></h2>
+                  <h2><span><MdPhoneCallback /></span> <a href="tel:4242530226">(424) 253-0226</a></h2>
             </Fade>
             </div>
      </div>
