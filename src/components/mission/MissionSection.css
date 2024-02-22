@@ -1,163 +1,52 @@
-.missionSection {
-    width: 100%;
-    padding: 3rem 0;
-}
 
-.missionSectionCaption {
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-}
 
-.missionSectionCaption h1 {
-    font-size: 2rem;
-    padding: 1rem 0;
-}
 
-.missionSectionCaption p {
-    padding: 1rem 0;
-    text-align: justify;
-}
-
-.missionSectionFlex {
-    width: 100%;
+.mission-section {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    width: 100%;
+    padding: 3rem 1rem;
 }
 
-.missionSectionContent {
-    display: flex;
-    justify-content: center;
+.flex-left {
+    width: 50%;
+    margin: auto 0;
 }
 
-.flexLeftItem {
-    width: 350px;
-    padding: 1rem;
-    background-color: rgba(101, 79, 121, 0.089);
-    border-radius: .5rem;
-    margin: .5rem;
+
+.mission-section-header {
+    padding: 1rem 0;
 }
 
-.flexLeftItem p {
+.mission-section-header h1 {
+    padding: .5rem 0;
+}
+
+.flex-left h1 {
+    padding: .2rem 0;
+    font-size: 1rem;
     text-align: left;
 }
 
-.flexRight {
-    width: 1200px;
-    padding: 2rem;
-    margin: auto;
-}
-
-.flexRight img {
-    width: 100%;
-}
-
-
-@media screen and (max-width: 1200px) {
-    .missionSectionContent {
-        flex-wrap: wrap;
-    }
-
-    .flexRight {
-        width: 500px;
-        padding: 2rem;
-    }
-    
-    .flexRight img {
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 940px) {
-    .flexLeftItem {
-        width: 100%;
-        padding: 1rem;
-    }
-}
-
-
-
-/* .mission-section {
-    width: 100%;
-    position: relative;
-    background: rgba(255, 255, 255, 0);
-}
-
-.mission-section .content {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-}
-
-.mission-section .content p {
-    margin: 1rem 0;
-}
-
-.mission-section p {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-
-.mission-section h1 {
-    padding: 2rem 0;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
+.flex-left p {
+    text-align: left;
 }
 
 .flex-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-top: 1rem;
-    gap: 1rem;
+    width: 500px;
 }
 
-.thumbnail img {
-    margin: 5px;
-    padding: 5px;
-    box-shadow: 10px 5px 5px rgb(129, 129, 129);
-    border-radius: 1rem;
+.flex-right img {
+    width: 100%;
 }
 
-.thumbnail p {
-    width: 320px;
-    text-align: center;
-}
+@media screen and (max-width:940px)  {
+    .mission-section {
+        flex-wrap: wrap;
+    }
 
-.mission-section button {
-    margin: auto;
-}
-
-@media screen and (max-width: 940px) {
-    .mission-section .content {
+    .flex-left {
         width: 100%;
     }
-
-    .mission-section h1 {
-        font-size: 25px;
-    }
-
-    .mission-section p {
-        font-size: 15px;
-    }
-
-    .thumbnail img {
-        width: 250px;
-        height: 150px;
-    }
 }
-
-
- */
-
-
-
