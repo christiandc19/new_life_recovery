@@ -21,6 +21,9 @@
 
 }
 
+.contact2-header p {
+  padding: .5rem 0;
+}
 
 .contact-container {
     width: 100%;
@@ -97,7 +100,7 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: rgb(212, 42, 212);
+    background-color: rgb(20, 20, 20);
     border-color: var(--secondary-color);
     color: #fff;
   }
@@ -146,8 +149,5 @@ input {
         margin: 4rem 1rem 2rem 1rem;
       }
 
-      iframe {
-        display: none;
-      }
     }
   

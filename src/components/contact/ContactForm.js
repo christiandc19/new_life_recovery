@@ -44,7 +44,7 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 <div className="contact2-header contact2-container">
             <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+            <p>Call us to speak directly with one of our specialist administration officers who can guide you through the process and answers any questions you may have.</p>
 </div>
 
 
