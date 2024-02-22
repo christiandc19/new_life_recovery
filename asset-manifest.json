@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_life_recovery/static/css/main.61e872a3.css",
-    "main.js": "/new_life_recovery/static/js/main.363d905d.js",
+    "main.css": "/new_life_recovery/static/css/main.45830062.css",
+    "main.js": "/new_life_recovery/static/js/main.3b74ad7b.js",
     "static/media/activities-min.webp": "/new_life_recovery/static/media/activities-min.b75b91938b8b6d9d5167.webp",
     "static/media/treatment-plan.webp": "/new_life_recovery/static/media/treatment-plan.0199bc8dec5dcf7ae150.webp",
     "static/media/mission-bg.webp": "/new_life_recovery/static/media/mission-bg.1f9809db69c31422fcca.webp",
@@ -23,7 +23,7 @@
     "static/media/menu-bg-testimonials.webp": "/new_life_recovery/static/media/menu-bg-testimonials.7b3a3c4da0b04b9e5860.webp",
     "static/media/submenu-bg-team.webp": "/new_life_recovery/static/media/submenu-bg-team.fef187fd21b07ab825b2.webp",
     "static/media/sa-submenu-bg.webp": "/new_life_recovery/static/media/sa-submenu-bg.bc65083e982ef893c1a2.webp",
-    "static/media/Hero3.webp": "/new_life_recovery/static/media/Hero3.7610c111cf7b5dd78d6b.webp",
+    "static/media/mh-mainmenu-bg-min.webp": "/new_life_recovery/static/media/mh-mainmenu-bg-min.7610c111cf7b5dd78d6b.webp",
     "static/media/submenu-bg-jobs.webp": "/new_life_recovery/static/media/submenu-bg-jobs.4252f7d54008f09dcc86.webp",
     "static/media/dialectal.webp": "/new_life_recovery/static/media/dialectal.b6ac0cac54684eddb6c8.webp",
     "static/media/what_we_do_section.webp": "/new_life_recovery/static/media/what_we_do_section.553826a5c3d11a56fef1.webp",
@@ -38,11 +38,11 @@
     "static/media/interpersonal.webp": "/new_life_recovery/static/media/interpersonal.69cfba9cfa110e6995a8.webp",
     "static/media/Hero2.webp": "/new_life_recovery/static/media/Hero2.9b83f0d7176d1d083db6.webp",
     "static/media/alcohol.webp": "/new_life_recovery/static/media/alcohol.c93de7846b2b2aba0a58.webp",
-    "static/media/mh-mainmenu-bg-min.webp": "/new_life_recovery/static/media/mh-mainmenu-bg-min.d0794bf567bd046e40cb.webp",
     "static/media/insurance-section-img-min.webp": "/new_life_recovery/static/media/insurance-section-img-min.2f339418f6483aa29cb8.webp",
     "static/media/menu-bg-mission.webp": "/new_life_recovery/static/media/menu-bg-mission.af60694b36b337cfd40e.webp",
     "static/media/depression.webp": "/new_life_recovery/static/media/depression.9731c17ae0e0188eaa92.webp",
     "static/media/addiction-prescriptions.webp": "/new_life_recovery/static/media/addiction-prescriptions.81571ca2bd69b0a04c02.webp",
+    "static/media/Hero3.webp": "/new_life_recovery/static/media/Hero3.d2093cef81b71bc34a3f.webp",
     "static/media/mental-health-submenu-bg.webp": "/new_life_recovery/static/media/mental-health-submenu-bg.226cdaf9da810f1e6bf3.webp",
     "static/media/cognitive.webp": "/new_life_recovery/static/media/cognitive.ac8426b34e9807a5c8d7.webp",
     "static/media/addiction-heroin.webp": "/new_life_recovery/static/media/addiction-heroin.2e8d9deb27217a0797ee.webp",
@@ -62,11 +62,11 @@
     "static/media/beacon.webp": "/new_life_recovery/static/media/beacon.266f95d249e75d1bf999.webp",
     "static/media/aetna.webp": "/new_life_recovery/static/media/aetna.fc0df85971adfb48ea53.webp",
     "index.html": "/new_life_recovery/index.html",
-    "main.61e872a3.css.map": "/new_life_recovery/static/css/main.61e872a3.css.map",
-    "main.363d905d.js.map": "/new_life_recovery/static/js/main.363d905d.js.map"
+    "main.45830062.css.map": "/new_life_recovery/static/css/main.45830062.css.map",
+    "main.3b74ad7b.js.map": "/new_life_recovery/static/js/main.3b74ad7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.61e872a3.css",
-    "static/js/main.363d905d.js"
+    "static/css/main.45830062.css",
+    "static/js/main.3b74ad7b.js"
   ]
 }
