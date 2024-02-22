@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new_life_recovery/static/css/main.45830062.css",
+    "main.css": "/new_life_recovery/static/css/main.3b7f1e6b.css",
     "main.js": "/new_life_recovery/static/js/main.3b74ad7b.js",
     "static/media/activities-min.webp": "/new_life_recovery/static/media/activities-min.b75b91938b8b6d9d5167.webp",
     "static/media/treatment-plan.webp": "/new_life_recovery/static/media/treatment-plan.0199bc8dec5dcf7ae150.webp",
@@ -62,11 +62,11 @@
     "static/media/beacon.webp": "/new_life_recovery/static/media/beacon.266f95d249e75d1bf999.webp",
     "static/media/aetna.webp": "/new_life_recovery/static/media/aetna.fc0df85971adfb48ea53.webp",
     "index.html": "/new_life_recovery/index.html",
-    "main.45830062.css.map": "/new_life_recovery/static/css/main.45830062.css.map",
+    "main.3b7f1e6b.css.map": "/new_life_recovery/static/css/main.3b7f1e6b.css.map",
     "main.3b74ad7b.js.map": "/new_life_recovery/static/js/main.3b74ad7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.45830062.css",
+    "static/css/main.3b7f1e6b.css",
     "static/js/main.3b74ad7b.js"
   ]
 }
