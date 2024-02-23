@@ -18,11 +18,9 @@ const Hero = () => {
     <>
     <div className="hero-content">
 
-        <div className='hero-number'>
-              <Zoom duration={1000} delay={2000}>
+            <div className='hero-number'>
                   <h2><span><MdPhoneCallback /></span></h2>
                    <a href="tel:4242530226">(424) 253-0226</a>
-              </Zoom>                   
             </div>
 
 
