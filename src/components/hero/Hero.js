@@ -6,6 +6,9 @@ import Hero2 from '../../assets/Hero2.webp'
 import Hero3 from '../../assets/Hero3.webp'
 import Hero4 from '../../assets/Hero4.webp'
 
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
+
 import { MdPhoneCallback } from "react-icons/md";
 import Gauge from './Gauge'
 import Logo from '../../assets/hero-logo-colored.png'
@@ -14,13 +17,26 @@ const Hero = () => {
   return (
     <>
     <div className="hero-content">
+
+        <div className='hero-number'>
+              <Zoom duration={1000} delay={2000}>
+                  <h2><span><MdPhoneCallback /></span></h2>
+                   <a href="tel:4242530226">(424) 253-0226</a>
+              </Zoom>                   
+            </div>
+
+
       <div className="hero">
 
+
+
           <div class="fling-minislide">
+
             <img src={Hero1} alt="Slide 1" />
             <img src={Hero2} alt="Slide 2" />
             <img src={Hero3} alt="Slide 3" />
             <img src={Hero4} alt="Slide 4" />
+
           </div>
           
 
@@ -40,8 +56,13 @@ const Hero = () => {
 
 
     <div className='hero-btn'>
-      <Zoom duration={3000} delay={2000}>
-          <h2><span><MdPhoneCallback /></span> <a href="tel:4242530226">(424) 253-0226</a></h2>
+      <Zoom duration={2500} delay={2000}>
+        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+          <Link to="/contact">
+            <button>CALL US</button>
+        </Link>
+      </LinkRoll>
+
       </Zoom>                   
       </div>
 

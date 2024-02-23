@@ -49,7 +49,7 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 
 <section className="contact-container">
-<Fade left>
+<Fade bottom duration={2000}>
 <div className="contact-cards-container">
     
     <div class="get_form_inner2">
@@ -72,6 +72,8 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 
           <div class="get_form_inner">
+          <Fade bottom duration={1500}>
+
             <div class="get_form_inner_text">
               <h3>Get In Touch</h3>
               <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
@@ -97,9 +99,12 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 
             </form>
+            </Fade>
+
 </div>
 
 </section>
+
 </div>
 
 

@@ -15,7 +15,7 @@ const TeamSection = () => {
         <div className='team-main'>
         <div className='team-section container'>
         <h1>MEET THE CORE</h1>
-        <p>We seek to provide the highest quality care for any addiction situation to create long-term sobriety in a safe and effective environment built on love, acceptance, and tolerance. We work every day to create addict programming that gives you the time and tools needed to live a sober life today, and then vigorously push you to fulfill your dreams tomorrow. </p>
+        <p>At New Life Recovery, we believe in the power of a dedicated and caring team to support individuals on their path to recovery from mental health and substance abuse challenges. Get to know the compassionate professionals who are here to guide and assist you every step of the way</p>
             <div>
                 <div className="content">
 

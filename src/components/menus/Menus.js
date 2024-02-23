@@ -38,13 +38,7 @@ const Menus = () => {
 
           <div className="top-flex-caption">
             <h2>DEPRESSION</h2>
-            <LinkRoll
-              activeClass="active"
-              to="top"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
               <Link to="/depression">
                 <p>
                   LEARN MORE{" "}

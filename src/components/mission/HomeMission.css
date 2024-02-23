@@ -43,11 +43,12 @@
 }
 
 .mission-home h2 {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
     font-family: 'Kaushan Script', cursive;
     color: white;
+    font-weight: normal;
 }
 
 
@@ -59,8 +60,13 @@
         font-size: 1.5rem;
     }
 
-    .mission-home h2 {
-        font-size: 2rem;
+
     }
 
+
+    @media screen and (max-width:600px) {
+      .mission-home h2 {
+        font-size: 1rem;
+    }
+    
     }

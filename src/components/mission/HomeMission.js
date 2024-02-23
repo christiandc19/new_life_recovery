@@ -18,7 +18,7 @@ const HomeMission = () => {
           </p>
 
           <h2>
-            "The road to recovery starts on New Life Recovery"
+            "Our mission is to provide compassionate care and support for individuals on their journey to mental health and sobriety."
           </h2>
         </div>
       </div>
