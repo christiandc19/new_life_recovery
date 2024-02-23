@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import {FaTimes } from 'react-icons/fa'
+import { RiMenu3Fill } from "react-icons/ri";
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-wh.png'
 import {BsFillCaretDownFill } from "react-icons/bs";
@@ -115,7 +116,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hamburger" onClick={handleNav}>
-                    {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
+                    {!nav ? (<RiMenu3Fill className='icon' />) : (<FaTimes className='icon' />)}
                 </div>
             </div>
         </div>

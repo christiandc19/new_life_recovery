@@ -20,7 +20,7 @@ const TeamSection = () => {
                 <div className="content">
 
                     <div className='team-right'>
-                    <Zoom duration={1000} delay={2000}>
+                    <Zoom duration={1000}>
                     <div className='team-thumbnail'>
                         <img src={ Ashley } alt="Ashley" loading="lazy"/>
                         <div>                   
@@ -30,7 +30,7 @@ const TeamSection = () => {
                     </Zoom>
 
 
-                    <Zoom duration={1000} delay={2000}>
+                    <Zoom duration={1000}>
                     <div className='team-thumbnail'>
                     <img src={ Honey } alt="Honey" loading="lazy"/>
                     <p><b>Honey Phipps</b><br/><i>Executive Director</i></p>
@@ -38,14 +38,14 @@ const TeamSection = () => {
                     </Zoom>
 
 
-                    <Zoom duration={1000} delay={2000}>
+                    <Zoom duration={1000}>
                     <div className='team-thumbnail'>
                     <img src={ Anthony } alt="Anthony" loading="lazy"/>
                         <p><b>Anthony Raines</b><br/><i>Lead Case Manager</i></p>  
                     </div>
                     </Zoom>    
 
-                    <Zoom duration={1000} delay={2000}>
+                    <Zoom duration={1000}>
                     <div className='team-thumbnail'>
                     <img src={ Imelda } alt="Imelda" loading="lazy"/>
                         <p><b>Imelda Medina</b><br/><i>Lead Nurse</i></p>  

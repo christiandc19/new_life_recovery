@@ -150,15 +150,9 @@
     }
 
 
-
     .TherapyMH-right {
         flex-wrap: wrap;
     }
-
-}
-
-
-@media screen and (max-width:940px) {
 
 
     .TherapyMH-right  .box{
@@ -208,4 +202,15 @@
         width: 100%;
         margin: 0 1rem;
     }
+
+    .TherapyMH .TherapyMH-left h1{
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+
+    .TherapyMH .TherapyMH-left p {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
 }
