@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_life_recovery/static/css/main.ee0cfa44.css",
-    "main.js": "/new_life_recovery/static/js/main.6b85fadc.js",
+    "main.css": "/new_life_recovery/static/css/main.3da8e4e9.css",
+    "main.js": "/new_life_recovery/static/js/main.d9d54064.js",
     "static/media/activities-min.webp": "/new_life_recovery/static/media/activities-min.b75b91938b8b6d9d5167.webp",
     "static/media/treatment-plan.webp": "/new_life_recovery/static/media/treatment-plan.0199bc8dec5dcf7ae150.webp",
     "static/media/mission-bg.webp": "/new_life_recovery/static/media/mission-bg.1f9809db69c31422fcca.webp",
@@ -51,7 +51,6 @@
     "static/media/addiction-opioid.webp": "/new_life_recovery/static/media/addiction-opioid.8c2e1c14bd194b25ea90.webp",
     "static/media/testimonials1.webp": "/new_life_recovery/static/media/testimonials1.401bc492e73fab0a4e27.webp",
     "static/media/addiction-oxycodone.webp": "/new_life_recovery/static/media/addiction-oxycodone.c8af00c3bb2c2e2fd4ee.webp",
-    "static/media/Honey.webp": "/new_life_recovery/static/media/Honey.ceb0c3c0ba715155ba56.webp",
     "static/media/Anthony.webp": "/new_life_recovery/static/media/Anthony.321d74a816654f6939b8.webp",
     "static/media/Ashley.webp": "/new_life_recovery/static/media/Ashley.a27700a87ee1edf065ce.webp",
     "static/media/Imelda.webp": "/new_life_recovery/static/media/Imelda.97bbc1c13d02b4747367.webp",
@@ -62,11 +61,11 @@
     "static/media/beacon.webp": "/new_life_recovery/static/media/beacon.266f95d249e75d1bf999.webp",
     "static/media/aetna.webp": "/new_life_recovery/static/media/aetna.fc0df85971adfb48ea53.webp",
     "index.html": "/new_life_recovery/index.html",
-    "main.ee0cfa44.css.map": "/new_life_recovery/static/css/main.ee0cfa44.css.map",
-    "main.6b85fadc.js.map": "/new_life_recovery/static/js/main.6b85fadc.js.map"
+    "main.3da8e4e9.css.map": "/new_life_recovery/static/css/main.3da8e4e9.css.map",
+    "main.d9d54064.js.map": "/new_life_recovery/static/js/main.d9d54064.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee0cfa44.css",
-    "static/js/main.6b85fadc.js"
+    "static/css/main.3da8e4e9.css",
+    "static/js/main.d9d54064.js"
   ]
 }
