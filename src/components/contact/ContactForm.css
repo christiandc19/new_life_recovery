@@ -149,5 +149,11 @@ input {
         margin: 4rem 1rem 2rem 1rem;
       }
 
+      .get_form_inner p {
+        text-align: left;
+        padding: .5rem 0;
+      }
+  
+
     }
   

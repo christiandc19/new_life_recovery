@@ -4,7 +4,6 @@ import Zoom from 'react-reveal/Zoom';
 
 
 import Ashley from '../../assets/Ashley.webp'
-import Honey from '../../assets/Honey.webp'
 import Anthony from '../../assets/Anthony.webp'
 import Imelda from '../../assets/Imelda.webp'
 
@@ -28,15 +27,6 @@ const TeamSection = () => {
                         </div>
                     </div>
                     </Zoom>
-
-
-                    <Zoom duration={1000}>
-                    <div className='team-thumbnail'>
-                    <img src={ Honey } alt="Honey" loading="lazy"/>
-                    <p><b>Honey Phipps</b><br/><i>Executive Director</i></p>
-                    </div>
-                    </Zoom>
-
 
                     <Zoom duration={1000}>
                     <div className='team-thumbnail'>
