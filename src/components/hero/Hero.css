@@ -23,7 +23,6 @@
   height: 100%;
 }
 
-
 .hero-container .content {
   position: absolute;
   bottom: 5%;
@@ -33,7 +32,7 @@
 }
 
 .hero-container .content img {
-  width: 400px;
+  width: 500px;
 }
 
 .hero-number {
@@ -56,11 +55,24 @@
   }
 
 .hero .content h1 {
-  font-size: 4.5rem;
+  font-size: 1.2rem;
   text-align: center;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;  
-  text-transform: uppercase;
+  padding: .5rem 0;
+  letter-spacing: 2px;
+}
+
+.hero .content p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+
+.hero .content h2 span {
+  color: #fa9006;
+  font-size: 1.2rem;
 }
 
 .hero-btn a {
@@ -82,8 +94,7 @@ font-family: 'Libre Baskerville', serif;
 justify-content: center;
 gap: 1rem;
 text-align: center;
-font-size: 1.5rem;
-
+font-size: 1rem;
 }
 
 .gauge-container {
@@ -136,12 +147,6 @@ text-align: center;
     height:100vh; 
   }
 
-  .hero .content h1 {
-    font-size: 3rem;
-  }
-
-
-
 }
 
 
@@ -154,10 +159,7 @@ text-align: center;
     font-size: .8rem;
   }
 
-  .hero .content h1 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-  }
+
   
   .hero .content h2 {
     font-size: .8rem;

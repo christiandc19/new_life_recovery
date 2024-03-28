@@ -8,9 +8,10 @@ import Hero4 from '../../assets/Hero4.webp'
 
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
+import { FaStar } from "react-icons/fa";
 
 import { MdPhoneCallback } from "react-icons/md";
-import Gauge from './Gauge'
+// import Gauge from './Gauge'
 import Logo from '../../assets/hero-logo-colored.png'
 
 const Hero = () => {
@@ -46,9 +47,10 @@ const Hero = () => {
             <img src={Logo} alt="logo" loading="lazy" />
   </Zoom>
      <div className='gauges container'>
-     <Zoom duration={3000} delay={1000}>
-            <Gauge Gauge="60%" Header="SOBRIETY SUCCESS" Name="60% of our clients are abstinent from drugs and alcohol in 6 months.
-"ClassName="sober"/>
+     <Zoom duration={2000} delay={1000}>
+            <h2><span><FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar /></span></h2>
+            <h1>PROVEN RECOVERY SUCCESS</h1>
+            <p>Overcoming mental health struggles and addiction, one day at a time.</p>
       </Zoom>
     </div>
 
